@@ -1,15 +1,9 @@
-function saveNote() {
-const input = document.getElementById("noteInput");
-const notesList = document.getElementById("notesList");
-
-if (!input.value.trim()) {
-alert("Please write a note first.");
-return;
+const { data, error } = await supabase
+.from('notes')
+.insert([
+{
+title,
+content,
+category
 }
-
-const li = document.createElement("li");
-li.textContent = input.value;
-notesList.prepend(li);
-
-input.value = "";
-}
+]);
