@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Vinay Vault | CyberOps Knowledge Hub</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<nav class="navbar">
+<div class="logo">⚡ Vinay Vault</div>
+<div class="nav-links">
+<a href="#dashboard">Dashboard</a>
+<a href="#blog">Knowledge Base</a>
+<a href="#lab">Cyber Lab</a>
+<a href="#portfolio">Portfolio</a>
+</div>
+</nav>
+
+<section class="hero" id="dashboard">
+<div class="hero-text">
+<p class="badge">CyberOps • Networking • Security</p>
+<h1>Personal Cybersecurity & Networking Knowledge Hub</h1>
+<p>
+A private digital vault for notes, SOC investigations, firewall configs,
+network troubleshooting, lab exercises, and security research.
+</p>
+<div class="hero-buttons">
+<a href="#blog" class="btn primary">Explore Knowledge Base</a>
+<a href="#lab" class="btn secondary">View Cyber Lab</a>
+</div>
+</div>
+
+<div class="hero-card">
+<h3>Live Security Dashboard</h3>
+<div class="status green">● Network Monitoring Active</div>
+<div class="status blue">● SOC Notes Synced</div>
+<div class="status purple">● Threat Intel Ready</div>
+</div>
+</section>
+
+<section class="cards">
+<div class="card">
+<h2>🛡️ SOC Notes</h2>
+<p>Incident response, SIEM use cases, alerts, investigations, and detection rules.</p>
+</div>
+
+<div class="card">
+<h2>🌐 Networking</h2>
+<p>Network diagrams, troubleshooting guides, routing, switching, and firewall notes.</p>
+</div>
+
+<div class="card">
+<h2>☁️ Cloud Security</h2>
+<p>Cloud infrastructure security, access control, monitoring, and automation.</p>
+</div>
+</section>
+
+<section class="section" id="blog">
+<h2>Technical Blog & Knowledge Base</h2>
+<p class="section-subtitle">Organize daily learning, technical articles, and documentation.</p>
+
+<div class="grid">
+<div>Networking</div>
+<div>Cybersecurity</div>
+<div>SOC Investigations</div>
+<div>SIEM Use Cases</div>
+<div>Firewall Configurations</div>
+<div>Threat Hunting</div>
+<div>Cloud Security</div>
+<div>Automation Scripts</div>
+</div>
+</section>
+
+<section class="section" id="lab">
+<h2>Cybersecurity Lab Repository</h2>
+<div class="lab-layout">
+<div class="terminal">
+<p><span>$</span> nmap scan completed</p>
+<p><span>$</span> firewall policy reviewed</p>
+<p><span>$</span> siem query saved</p>
+<p><span>$</span> incident report generated</p>
+</div>
+
+<div class="lab-info">
+<h3>Store and organize</h3>
+<ul>
+<li>Security playbooks</li>
+<li>Detection rules</li>
+<li>SIEM queries</li>
+<li>Network diagrams</li>
+<li>Incident reports</li>
+<li>Scripts and automation tools</li>
+</ul>
+</div>
+</div>
+</section>
+
+<section class="section" id="portfolio">
+<h2>Professional Portfolio</h2>
+<div class="portfolio">
+<div class="portfolio-card">Projects</div>
+<div class="portfolio-card">Security Implementations</div>
+<div class="portfolio-card">Network Deployments</div>
+<div class="portfolio-card">Certifications</div>
+</div>
+</section>
+
+<section class="note-section">
+<h2>Quick Private Note</h2>
+<textarea id="noteInput" placeholder="Write today’s learning or security note..."></textarea>
+<button onclick="saveNote()">Save Note</button>
+<ul id="notesList"></ul>
+</section>
+
+<footer>
+<p>© 2026 Vinay Vault — Personal CyberOps Knowledge Hub</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
